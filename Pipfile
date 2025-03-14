@@ -4,9 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-ipdb = "*"
+alembic = "*"
+click = "*"
+tabulate = "*"
+colorama = "*"
+sqlalchemy = "*"
 
 [dev-packages]
+ipdb = "*"
 
 [requires]
 python_version = "3.8"
